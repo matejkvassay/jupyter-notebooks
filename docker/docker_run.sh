@@ -18,5 +18,5 @@ sudo docker run -it \
     -v $JUPYL_KEY:/opt/mykey.key \
     -v $JUPYL_WORKDIR:/opt/workdir \
     -p $JUPYL_PORT:8080 \
-    -h $JUPYL_HOST:"0.0.0.0" \
+    --net=host \
     mkv-jupyter-notebooks
