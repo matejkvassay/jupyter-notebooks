@@ -1,1 +1,0 @@
-sudo docker build -t "mkv-jupyter-notebooks" -f ./Dockerfile . 
